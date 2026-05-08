@@ -30,48 +30,22 @@
           "anchor": "Changelog",
           "icon": "scroll-text",
           "href": "https://www.mintlify.com/docs/changelog"
-        },
-        {
-          "anchor": "Help",
-          "icon": "life-buoy",
-          "href": "https://www.mintlify.com/docs/contact-support"
         }
       ]
     },
     "directory": "card",
     "groups": [
       {
-        "group": "Platform",
-        "icon": "layers",
+        "group": "Playground",
+        "icon": "ferris-wheel",
         "expanded": true,
         "pages": [
+          "ui",
           "platform/quickstart",
           "platform/key-concepts",
           "platform/configuration/settings",
           "platform/configuration/user-management",
           "platform/administration/roles-permissions"
-        ]
-      },
-      {
-        "group": "Analytics",
-        "icon": "chart-bar",
-        "expanded": true,
-        "pages": [
-          "analytics/quickstart",
-          "analytics/connect-data",
-          "analytics/dashboards/create-dashboard",
-          "analytics/reports/scheduled-reports"
-        ]
-      },
-      {
-        "group": "Integrations",
-        "icon": "plug",
-        "expanded": true,
-        "pages": [
-          "integrations/quickstart",
-          "integrations/authentication",
-          "integrations/connectors/crm",
-          "integrations/webhooks/configure"
         ]
       }
     ]
@@ -93,5 +67,9 @@
       "x": "https://x.com/yourcompany",
       "linkedin": "https://linkedin.com/company/yourcompany"
     }
+  },
+  "fonts": {
+    "family": "Geist",
+    "weight": 400
   }
 }
